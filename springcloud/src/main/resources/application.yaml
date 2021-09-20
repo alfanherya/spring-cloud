@@ -14,10 +14,9 @@ spring:
       org.springframework.cloud.config: DEBUG
 
   spring:
-    profiles: git
     cloud:
       config:
         server:
           git:
-            url: https://github.com/alfanherya/spring-cloud.git
+            url: https://github.com/alfanherya/spring-cloud/config-store.git
             cloneOnStart: true
