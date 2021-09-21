@@ -28,11 +28,11 @@ spring:
   profiles: heroku-discovery1
 eureka:
   instance:
-    hostname: belajar-springcloud-discovery1.herokuapp.com
+    hostname: springcloud-discovery.herokuapp.com
     non-secure-port: 80
   client:
     service-url:
-      defaultZone: https://belajar-springcloud-discovery2.herokuapp.com/eureka/
+      defaultZone: https://springcloud-discovery1.herokuapp.com/eureka/
 
 
 ---
@@ -40,9 +40,9 @@ spring:
   profiles:
 eureka:
   instance:
-    hostname: belajar-springcloud-discovery2.herokuapp.com
+    hostname: springcloud-discovery1.herokuapp.com
     non-secure-port: 80
   client:
     service-url:
-      defaultZone: https://belajar-springcloud-discovery1.herokuapp.com/eureka/
+      defaultZone: https://springcloud-discovery.herokuapp.com/eureka/
 
