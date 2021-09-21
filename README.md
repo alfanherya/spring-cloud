@@ -1,6 +1,6 @@
 # spring-cloud
 [![Build Status](https://travis-ci.org/codecentric/springboot-sample-app.svg?branch=master)](https://travis-ci.org/codecentric/springboot-sample-app)|![Java](https://img.shields.io/badge/Java-v1.8-orange.svg)
-# discovery_service
+# discovery service
 Untuk membuat cloud dengan spring, yang pertama harus dibuat adalah discovery service. Setelah berhasil running untuk membuat replicanya bisa menggunakan perintah di terminal jika memakai windows dengan seperti berikut ini -> set $SPRING_PROFILES_ACTIVE$=discovery1-> dan jika dilihat kondisi di application.properties atau application.yml maka akan diarahkan ke port 10001.
 
 
