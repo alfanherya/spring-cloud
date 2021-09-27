@@ -1,6 +1,0 @@
-logging:
-  level:
-    org.springframework.boot: DEBUG
-
-  greeting:
-    message: hi, ini pesan dari sistem server dari local config server
